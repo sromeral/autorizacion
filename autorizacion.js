@@ -22,3 +22,8 @@ function verificar() {
 		}
 	}
 }
+
+function reiniciar() {
+	document.getElementById("mensaje").value = "";
+	document.getElementById("nombre").value = "";
+}
